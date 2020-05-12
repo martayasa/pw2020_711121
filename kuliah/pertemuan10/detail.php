@@ -4,8 +4,9 @@ require 'function.php';
 // Ambil id dari URL
 $id = $_GET['id'];
 
-// Query mahasiswa berdasarkan query
+// Query mahasiswa berdasarkan id
 $m = query("SELECT * FROM mahasiswa WHERE id = $id");
+// var_dump($m);
 ?>
 
 
